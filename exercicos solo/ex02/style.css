@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+*{
+    height: 100%
+}
+
+body{
+    background-image: linear-gradient( -45deg, #E8EBFF, #AB5FBC, #B085F5, #2C2645);
+    font: normal 1 em Arial, Helvetica, sans-serif;
+}
+
+#relembrando{
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+    text-align: center;
+}
+
+#aula{
+    
+}
+
+.testando{
+    font-size: 20px;
+    text-align: justify;
+    color: black;
+    font-weight: bold;
+}

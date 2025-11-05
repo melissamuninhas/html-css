@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+h1{ /*
+     Por padrão o h1 é uma box-level
+    */
+    background-color: lightgrey;
+    height: 300px;
+    width: 300px;
+
+    border-width: 10px;
+    border-style: solid;
+    border-color: darkslategray;
+
+    /* Para simplificar o border, posso usar a shorthand
+    border , e dentro dela colocar na ordem como está acima. Ex.:
+    border: 10px solid darkslategray;
+
+    */
+
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+
+    /* Para simplificar o padding, posso usar a shorthand 
+    padding, e dentro dela colocar na ordem como está acima tbm, Ex.:
+    padding: 10px 10px 10px 10px; ou padding: 10px;
+    preciso colocar na ordem de um relógio: em cima, do lado direito, embaixo e do lado esquerdo.
+    
+    */
+
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+
+    /* Para simplificar o margin, posso usar o shorthand margin, e dentro dela colocar na ordem como está acima tbm,seguindo a ordem de relógio tbm. Ex.: 
+    margin: 10px 10px 10px 10px; ou margin: 20px auto 40px auto;
+    
+    */
+
+    margin: auto;
+
+    outline-width: 5px;
+    outline-style: dashed;
+    outline-color: rgb(231, 99, 231);
+
+    /* Para simplificar o outline, posso usar a shorthand outline, Ex.: 
+    outline: 
+    outline: 5px dashed salmon;
+    */
+}
+
+a{ /* inline-level */
+    border-width: 10px;
+    border-style: solid;
+    border-color: red;
+    
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}

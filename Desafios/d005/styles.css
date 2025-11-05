@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(148, 212, 238);
+}
+
+body:hover{
+    background-color: blueviolet;
+}
+
+li{
+    color: rgb(68, 12, 85);
+}
+
+img:hover{
+    transform: rotate( 100deg);
+}
+html {
+    height: 100%;
+    display: flex;
+}
